@@ -1,0 +1,75 @@
+
+.display{
+    display: flex;
+}
+
+legend {
+    font-size: 20px;
+}
+
+.photo{
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.profile li {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.category {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.category > h3 {
+    text-align: right;
+    text-decoration: underline;
+}
+.category li {
+    text-align: right;
+    margin-bottom: 7px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.video {
+    width: 300px;
+    height: 300px;
+}
+
+.img {
+    width: 30%;
+    padding-left: 30px;
+    gap: 7px;
+}
+
+.end {
+    width: 30%;
+    margin-left: auto;
+}
+
+.pdf , .img {
+    display: flex;
+}
+
+.pdf {
+    width: 30%;
+    justify-content: space-between;
+    gap: 10px;
+}

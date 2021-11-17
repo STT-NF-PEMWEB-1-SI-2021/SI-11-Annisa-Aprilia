@@ -1,0 +1,221 @@
+body{
+    border: 1px solid black; 
+    margin: auto;
+}
+
+header{
+    background-color: gainsboro;
+}
+
+nav{
+    display: flex; 
+    padding: 2px; 
+    border-bottom: 1px solid black; 
+    align-items: center;
+}
+
+.ul1{
+    display: flex; 
+    list-style-type: none; 
+    gap: 10px; 
+    margin-right: 50px;
+}
+
+.li1{
+    display: flex; 
+    align-items: center; 
+    gap: 5px;
+}
+
+.logo{
+    width: 30px; 
+    height: 30px;
+}
+
+.name{
+    font-size: 20px;
+}
+
+.ul2{
+    font-size: 20px; 
+    display: flex; 
+    list-style-type: none;
+}
+
+.ul3{
+    margin-left: auto; 
+    list-style-type: none;
+}
+
+.li2{
+    display: flex; 
+    gap: 5px; 
+    align-items: center;
+}
+
+.corner{
+    width: 20px; 
+    height: 22px;
+}
+
+.corner1{
+    font-weight: bolder; 
+    font-size: 15px; 
+    margin-right: 10px;
+}
+
+.mid{
+    display: flex; 
+    gap: 20px; 
+    margin-left: 30px; 
+    margin-top: 100px; 
+    padding: 10px;
+}
+
+main{
+    width: 60%;
+}
+
+.mid2{
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+}
+
+.checklist{
+    width: 50px; 
+    height: 50px;
+}
+
+.thanks{
+    font-size: 23px; 
+    font-weight: bolder;
+}
+
+.ul4{
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black; 
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.mid3{
+    display: flex;
+}
+
+.ul5{
+    list-style-type: none;
+}
+
+.address{
+    color: blue;
+}
+
+.ul6{
+    list-style-type: none; 
+    margin-left: 50px;
+}
+
+.payment{
+    display: flex;
+    gap: 5px;
+}
+
+.visa{
+    height: 20px; 
+    width: 20px;
+}
+
+.side{
+    width: 300px; 
+    height: 300px; 
+    margin-left: 50px; 
+    background-color: lightgray; 
+    padding: 10px; 
+    display: grid; 
+    align-items: center;
+}
+
+table{
+    width: 100%; 
+    padding: 10px 0; 
+    border-collapse: collapse;
+}
+
+.total{
+    padding: 10px 0;
+}
+
+.discount{
+    border-top: 2px solid white; 
+    padding-left: 10px; 
+    padding-top: 10px;
+}
+
+.discount1{
+    border-top: 2px solid white; 
+    text-align: right; 
+}
+
+.disc{
+    border-top: 2px solid white;
+}
+
+.button{
+    display: flex; 
+    gap: 5px; 
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: 100px; 
+    border-top: 1px solid black; 
+    display: grid; 
+    gap: 10px;
+}
+
+.end{
+    display: flex; 
+    gap: 5px; 
+    padding: 10px; 
+    align-items: center;
+}
+
+h3{
+    font-weight: bolder; 
+    margin-right: 10px;
+}
+
+.stay{
+    margin-left: auto; 
+    color: black;
+}
+
+.end1{
+    display: flex; 
+    gap: 5px;
+}
+
+.end2{
+    padding-left: 10px; 
+    display: flex; 
+    height: 30px; 
+    width: 30px; 
+    gap: 10px;
+}
+
+.end3{
+    display: flex; 
+    align-items: center; 
+    margin-left: auto;
+}
+
+.email{
+    height: 20px;
+}
+
+.end4{
+    background-color: lightgray; 
+    margin-left: 5px; 
+    margin-right: 10px;
+}
