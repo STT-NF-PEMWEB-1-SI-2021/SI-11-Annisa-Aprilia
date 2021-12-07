@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-color: pink;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+#container > aside {
+    background-color: rgb(71, 181, 196);
+    width: 40%;
+}
+
+#container > article{
+    background-color: salmon;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image {
+    width: 17%;
+    padding-top: 15%;
+}
+
+header, footer {
+    background: rgb(152, 199, 206);
+    height: 15vh;
+}
+
+header, aside, article, footer {
+    margin: 10px;
+}
