@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            justify-items: center;
+        width: 50%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        function nilaikursasing(){
+            const usd = 9915;
+            const sd = 13472;
+            const ringgit = 874;
+            const yen = 120;
+            const euro = 15888;
+            const riyal = 3592;
+
+            let nilai = document.getElementById("nilai").value;
+            let matauang = document.getElementById("matauang").value;
+
+            let usdollar = document.getElementById("us").value;
+            let sdollar = document.getElementById("singapore").value;
+            let ringgit_malay = document.getElementById("malay").value;
+            let yen_japan = document.getElementById("japan").value;
+            let euro_eng = document.getElementById("eng").value;
+            let riyal_arab = document.getElementById("arab").value;
+
+            let hasil =0;
+
+            if(matauang == usdollar){
+                hasil = nilai * usd;
+                document.getElementById("rupiah").innerHTML = "Rp." + hasil;
+            
+            } else if (matauang == sdollar) {
+            hasil = nilai * sd;
+            document.getElementById("rupiah").innerHTML =  "Rp." + hasil;
+
+            } else if(matauang == ringgit_malay) {
+            hasil = nilai * ringgit;
+            document.getElementById("rupiah").innerHTML =  "Rp." + hasil;
+
+            } else if (matauang == yen_japan) {
+            hasil = nilai * yen;
+            document.getElementById("rupiah").innerHTML =  "Rp." + hasil;
+
+            } else if (matauang == euro_eng) {
+            hasil = nilai * euro;
+            document.getElementById("rupiah").innerHTML =  "Rp." + hasil;
+            
+            } else {
+            hasil = nilai * riyal;
+            document.getElementById("rupiah").innerHTML =  "Rp." + hasil;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Kurs Rupiah - Mata Uang Asing</legend>
+        <table>
+            <tr>
+                <th>Masukkan Nilai</th>
+                <th>Valas</th>
+                <th>Nilai Rupiah</th>
+            </tr>
+            <tr>
+                <td>
+                    <input name="nilai" type="number" value="0" id="nilai" />
+                </td>
+                <td>
+                    <select name="matauang" id="matauang" onchange="nilaikursasing()">
+                        <option value="dollarus" id="us">Dollar US</option>
+                        <option value="dollarsinga" id="singapore">Dollar Singapore</option>
+                        <option value="ringgit" id="malay">Ringgit Malaysia</option>
+                        <option value="yen" id="japan">Yen Jepang</option>
+                        <option value="euro" id="eng">Euro</option>
+                        <option value="riyal" id="arab">Riyal Arab Saudi</option>
+                    </select>
+                </td>
+                <td>
+                    <div id="rupiah">0</div>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+
+</html>
